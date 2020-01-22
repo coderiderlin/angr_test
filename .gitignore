@@ -114,3 +114,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.id*
+*.nam
+*.til
+*.i64
+obj
+libs

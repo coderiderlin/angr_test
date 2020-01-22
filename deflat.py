@@ -161,7 +161,7 @@ if __name__ == '__main__':
         origin_data = bytearray(origin.read())
         origin_data_len = len(origin_data)
 
-    recovery_file = filename + '_recovered'
+    recovery_file = filename + '_recovered1'
     recovery = open(recovery_file, 'wb')
 
     # patch irrelevant blocks
