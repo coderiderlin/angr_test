@@ -31,3 +31,5 @@ if found_len >0:
     #now the simulator pause at 0x40091B,and rdx is the answer,dump it from memory
     answer=found.state.solver.eval(found.state.memory.load(found.state.regs.rdx,10),cast_to=str)
     print("answer:%s"%(answer))
+else:
+    print("no answer found.")
